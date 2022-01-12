@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
+import dynamic from 'next/dynamic';
 import PageLayout from '../components/PageLayout';
-import PageTransition from '../components/PageTransition';
-import Greeting from '../components/Greeting';
+const PageTransition = dynamic(() => import('../components/PageTransition'));
+const Greeting = dynamic(() => import('../components/Greeting'));
 
 const Home: NextPage = () => {
   return (

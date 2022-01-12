@@ -1,6 +1,4 @@
 import type { NextPage } from 'next';
-import HackerNews from '../components/HackerNews';
-import PageTransition from '../components/PageTransition';
 import {
   Box,
   Text,
@@ -8,6 +6,9 @@ import {
   Link as ChakraLink,
 } from '@chakra-ui/react';
 import PageLayout from '../components/PageLayout';
+import dynamic from 'next/dynamic';
+const PageTransition = dynamic(() => import('../components/PageTransition'));
+const HackerNews = dynamic(() => import('../components/HackerNews'));
 
 const News: NextPage = () => {
   return (

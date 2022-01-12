@@ -33,8 +33,8 @@ const theme = extendTheme({
     border: '#E4E4E4',
   },
   fonts: {
-    body: "'Poppins', sans-serif",
-    heading: "'Poppins', sans-serif",
+    body: "'Montserrat', sans-serif",
+    heading: "'Montserrat', sans-serif",
     mono: 'Menlo, monospace',
   },
   components: {
@@ -47,7 +47,7 @@ const theme = extendTheme({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontFamily: "'Poppins', sans-serif",
+        fontFamily: "'Montserrat', sans-serif",
         fontWeight: 'semi-bold',
         transition: 'all .2s',
       },

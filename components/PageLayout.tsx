@@ -4,7 +4,8 @@ import { useRouter } from 'next/router';
 import Footer from './Footer';
 import Header from './Header';
 
-export default function PageLayout({ children, ...customMeta }) {
+export default function PageLayout(props: any) {
+  const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
     title: 'Son Nguyen',
