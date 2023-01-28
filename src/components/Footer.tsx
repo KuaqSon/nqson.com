@@ -6,13 +6,9 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
-import {
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaLinkedinIn,
-} from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { ReactElement } from 'react';
+import { MdMail } from 'react-icons/md';
 
 const SocialButton = ({
   icon,
@@ -71,18 +67,13 @@ export default function SmallWithSocial() {
           />
           <SocialButton
             label={'LinkedIn'}
-            href={'https://www.linkedin.com/in/simon-nguyen-043584129/'}
+            href={'https://www.linkedin.com/in/son-nguyen-043584129/'}
             icon={<FaLinkedinIn />}
           />
           <SocialButton
-            label={'Facebook'}
-            href={'https://www.facebook.com/quangson.nguyen.399/'}
-            icon={<FaFacebook />}
-          />
-          <SocialButton
-            label={'Instagram'}
-            href={'https://www.instagram.com/qson.ng/'}
-            icon={<FaInstagram />}
+            label={'Mail me at'}
+            href={'mailto:qson.ng@gmail.com'}
+            icon={<MdMail />}
           />
         </Stack>
       </Container>
