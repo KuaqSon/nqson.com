@@ -11,8 +11,8 @@ export default function Greeting() {
         Hello, I'm Son Nguyen 👋
       </Text>
       <Text fontSize="xl" color={useColorModeValue('gray.700', 'gray.200')}>
-        I am a software engineer. I like new and rule-breaking things, It may
-        ask time - consuming, but never boring.
+        I am a software engineer with experience in business product
+        development. Let me accompany you with all your product intentions.
       </Text>
     </Box>
   );
