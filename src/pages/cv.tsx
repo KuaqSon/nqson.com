@@ -235,7 +235,7 @@ const CV: NextPage = () => {
               </TimelineBlock>
 
               <TimelineBlock time="2022">
-                <ChakraLink href="htthttps://cafe.nqson.com/" isExternal>
+                <ChakraLink href="https://cafe.nqson.com/" isExternal>
                   <Text
                     fontWeight="bold"
                     fontSize="lg"
