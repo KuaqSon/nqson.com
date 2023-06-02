@@ -116,43 +116,6 @@ const CV: NextPage = () => {
 
           <SectionBlock title="Work Experience">
             <Stack spacing={6}>
-              <TimelineBlock time="2018 - 2020">
-                <Text
-                  fontWeight="bold"
-                  fontSize="lg"
-                  color={useColorModeValue('gray.700', 'gray.200')}
-                >
-                  Software Engineer at Spiderbox Design
-                </Text>
-                <Text
-                  fontSize="sm"
-                  color={useColorModeValue('gray.600', 'gray.300')}
-                >
-                  Full-time - Ho Chi Minh, Vietnam
-                </Text>
-                <Text color={useColorModeValue('gray.700', 'gray.200')}>
-                  Together with the Australian team, I am a part of the software
-                  development team here. Having worked on both backend and
-                  frontend, I am honored to have contributed to many great
-                  projects.
-                </Text>
-                <UnorderedList mt={2}>
-                  <ListItem>
-                    Build an application that helps businesses receive orders
-                    using Angular 6 and .Net Core
-                  </ListItem>
-                  <ListItem>
-                    Take part in the development of a project for a document
-                    management system. Database design and the publication of
-                    complex reports constitute the core processes. The project
-                    was built with the .NET framework
-                  </ListItem>
-                  <ListItem>
-                    We built a Ruby on Rails application for managing teachers,
-                    compiling teaching content, and managing school quality.
-                  </ListItem>
-                </UnorderedList>
-              </TimelineBlock>
               <TimelineBlock time="2020 - Now">
                 <Text
                   fontWeight="bold"
@@ -196,11 +159,67 @@ const CV: NextPage = () => {
                   </ListItem>
                 </UnorderedList>
               </TimelineBlock>
+              <TimelineBlock time="2018 - 2020">
+                <Text
+                  fontWeight="bold"
+                  fontSize="lg"
+                  color={useColorModeValue('gray.700', 'gray.200')}
+                >
+                  Software Engineer at Spiderbox Design
+                </Text>
+                <Text
+                  fontSize="sm"
+                  color={useColorModeValue('gray.600', 'gray.300')}
+                >
+                  Full-time - Ho Chi Minh, Vietnam
+                </Text>
+                <Text color={useColorModeValue('gray.700', 'gray.200')}>
+                  Together with the Australian team, I am a part of the software
+                  development team here. Having worked on both backend and
+                  frontend, I am honored to have contributed to many great
+                  projects.
+                </Text>
+                <UnorderedList mt={2}>
+                  <ListItem>
+                    Build an application that helps businesses receive orders
+                    using Angular 6 and .Net Core
+                  </ListItem>
+                  <ListItem>
+                    Take part in the development of a project for a document
+                    management system. Database design and the publication of
+                    complex reports constitute the core processes. The project
+                    was built with the .NET framework
+                  </ListItem>
+                  <ListItem>
+                    We built a Ruby on Rails application for managing teachers,
+                    compiling teaching content, and managing school quality.
+                  </ListItem>
+                </UnorderedList>
+              </TimelineBlock>
             </Stack>
           </SectionBlock>
 
           <SectionBlock title="Projects">
             <Stack spacing={6}>
+              <TimelineBlock time="2023">
+                <ChakraLink
+                  href="https://github.com/KuaqSon/flash-commit"
+                  isExternal
+                >
+                  <Text
+                    fontWeight="bold"
+                    fontSize="lg"
+                    color={useColorModeValue('gray.700', 'gray.200')}
+                  >
+                    Flash-commit
+                  </Text>
+                </ChakraLink>
+
+                <Text color={useColorModeValue('gray.700', 'gray.200')}>
+                  Automatically generate commit messages using ChatGPT
+                </Text>
+                <TechStacks stacks={['Python']} />
+              </TimelineBlock>
               <TimelineBlock time="2022">
                 <Text
                   fontWeight="bold"
@@ -250,26 +269,6 @@ const CV: NextPage = () => {
                   Vietnam
                 </Text>
                 <TechStacks stacks={['NextJS', 'Django', 'Python']} />
-              </TimelineBlock>
-
-              <TimelineBlock time="2023">
-                <ChakraLink
-                  href="https://github.com/KuaqSon/flash-commit"
-                  isExternal
-                >
-                  <Text
-                    fontWeight="bold"
-                    fontSize="lg"
-                    color={useColorModeValue('gray.700', 'gray.200')}
-                  >
-                    Flash-commit
-                  </Text>
-                </ChakraLink>
-
-                <Text color={useColorModeValue('gray.700', 'gray.200')}>
-                  Automatically generate commit messages using ChatGPT
-                </Text>
-                <TechStacks stacks={['Python']} />
               </TimelineBlock>
             </Stack>
           </SectionBlock>
