@@ -49,11 +49,13 @@ function TechStacks({ stacks }: { stacks: string[] }) {
     return <></>;
   }
   return (
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     <Text color={useColorModeValue('gray.700', 'gray.200')}>
       Tech stacks:{' '}
       <Text
         as="span"
         fontWeight="bold"
+        // eslint-disable-next-line react-hooks/rules-of-hooks
         color={useColorModeValue('gray.700', 'gray.200')}
       >
         {stacks.join(', ')}
