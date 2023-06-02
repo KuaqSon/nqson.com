@@ -33,8 +33,8 @@ const theme = extendTheme({
     border: '#E4E4E4',
   },
   fonts: {
-    body: "'Montserrat', sans-serif",
-    heading: "'Montserrat', sans-serif",
+    body: "'Mukta', sans-serif",
+    heading: "'Mukta', sans-serif",
     mono: 'Menlo, monospace',
   },
   components: {
@@ -47,7 +47,7 @@ const theme = extendTheme({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontFamily: "'Montserrat', sans-serif",
+        fontFamily: "'Mukta', sans-serif",
         fontWeight: 'semi-bold',
         transition: 'all .2s',
       },
