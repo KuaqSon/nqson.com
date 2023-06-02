@@ -31,8 +31,8 @@ interface ILink {
 const Links = [
   {
     title: 'CV',
-    href: 'https://kuaqson.github.io/resume',
-    external: true,
+    href: '/cv',
+    external: false,
   },
   {
     title: 'Hacker News',
